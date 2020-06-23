@@ -13,8 +13,9 @@ type Props = {};
 type State = {
   time: Date;
 };
-
+//@ts-ignore in app.tsx
 export class App extends Component<Props, State> {
+//@ts-ignore in app.tsx
   state = {
     time: new Date(),
   };
